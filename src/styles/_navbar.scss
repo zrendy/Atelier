@@ -1,0 +1,19 @@
+.navbar {
+  display:flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: gray;
+  width: 110vh;
+  .logo {
+    padding: 0.5vh;
+    margin-left: 0.5vh;
+  }
+  .search-bar {
+    padding: 0.5vh;
+    margin-right: 0.5vh;
+  }
+}
+.banner {
+  display: flex;
+  justify-content: center;
+}

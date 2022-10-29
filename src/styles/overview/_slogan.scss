@@ -1,0 +1,39 @@
+.slogan {
+  padding: 2vh;
+  display: flex;
+  width: 110vh;
+  margin: auto;
+  text-align: center;
+  .description {
+    float: left;
+    width: 80vh;
+    text-align: left;
+    border-right: 1px solid black;
+    padding: 2vh;
+  }
+  .characteristics{
+    float: right;
+    width: 30vh;
+    padding: 5vh;
+    .features{
+      padding-left: 1vh;
+      list-style: none;
+      li{
+        margin-bottom: 1vh;
+      }
+      li:before{
+        content: "\f00c";
+        font-family: FontAwesome;
+        margin: 0 .5vh 0 -0.3vh;
+      }
+    }
+  }
+}
+
+// ul { padding-left:20px; list-style:none; }
+// li { margin-bottom:10px; }
+// li:before {
+//     font-family: 'FontAwesome';
+//     content: '\f067';
+//     margin:0 5px 0 -15px;
+// }

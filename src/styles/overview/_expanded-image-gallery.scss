@@ -1,0 +1,121 @@
+.expanded-image-gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  width: 100vw;
+  aspect-ratio: 8 / 3.5;
+  position: relative;
+
+  .expanded-expand-button {
+    position: absolute;
+    top:1vw;
+    right:1vw;
+    z-index: 10;
+  }
+
+  // main image slider
+  .expanded-slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    // Thumbnails
+    .expanded-thumbnail-previous {
+      position: absolute;
+      top: 4vw;
+      left: 2.15vw;
+      height: 3vw;
+      font-size: 2vw;
+      z-index: 9;
+    }
+    .expanded-thumbnail-next{
+      position: absolute;
+      height: 3vw;
+      left: 2.15vw;
+      bottom: 4vw;
+      font-size: 2vw;
+      z-index: 9;
+    }
+    .expanded-thumbnails {
+      align-items: center;
+      display: flex;
+      top: 6.25vw;
+      flex-direction: column;
+      overflow: hidden;
+      position: absolute;
+      left: 1vw;
+      z-index: 9;
+      width: 9vw;
+      height: 31.5vw;
+      .expanded-thumbnails-container {
+        width: 9vw;
+      }
+      .expanded-thumbnail {
+        margin-bottom: 1vw;
+        display: flex;
+        width: 3.5vw;
+        height: 3.5vw;
+        border-radius: 50%;
+        z-index: 9;
+        background-color: white;
+        overflow: hidden;
+        justify-content: center;
+        img {
+          display: none;
+          height: 10vw;
+          width: auto;
+        }
+      }
+    }
+
+
+    // main image navigation arrows
+    .expanded-main-previous {
+      color: blanchedalmond;
+      position: absolute;
+      top: 50%;
+      left: 8vw;
+      z-index: 9;
+    }
+
+    .expanded-main-next {
+      color:blanchedalmond;
+      position: absolute;
+      top: 50%;
+      right: 7%;
+      z-index: 9;
+    }
+
+
+    // main image slides
+    .expanded-slides {
+      width: 3000%;
+      height: 100%;
+      display: flex;
+    }
+
+    .expanded-main-image {
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      transition: 2s;
+      height: 100%;
+      overflow: hidden;
+
+
+      img {
+        background-position: center;
+        transition: opacity .5s;
+        width: auto;
+        max-height: 43.75vw;
+        object-fit: cover;
+        height: 100%;
+        z-index: 8;
+        cursor: cell;
+        overflow: hidden;
+      }
+    }
+  }
+}

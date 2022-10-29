@@ -1,0 +1,111 @@
+.image-gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  width: 80vh;
+  aspect-ratio: 8 / 5;
+  position: relative;
+  .expand-button {
+    position: absolute;
+    top:1vh;
+    right:1vh;
+    z-index: 10;
+  }
+  // main image slider
+  .slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    // Thumbnails
+    .thumbnail-previous {
+      position: absolute;
+      top: 1vh;
+      left: 5vh;
+      height: 3vh;
+      z-index: 9;
+    }
+    .thumbnail-next{
+      position: absolute;
+      height: 3vh;
+      left: 5vh;
+      bottom: 1vh;
+      z-index: 9;
+    }
+    .thumbnails {
+      align-items: center;
+      display: flex;
+      top: 4vh;
+      flex-direction: column;
+      overflow: hidden;
+      position: absolute;
+      left: 1vh;
+      z-index: 9;
+      width: 9vh;
+      height: 42vh;
+      .thumbnails-container {
+        width: 9vh;
+      }
+      .thumbnail {
+        margin-bottom: 0.5vh;
+        display: flex;
+        width: 100%;
+        height: 5.5vh;
+        z-index: 9;
+        overflow: hidden;
+        justify-content: center;
+        img {
+          display: flex;
+          height: 10vh;
+          width: auto;
+        }
+      }
+    }
+
+
+    // main image navigation arrows
+    .main-previous {
+      color: blanchedalmond;
+      position: absolute;
+      top: 50%;
+      left: 17%;
+      z-index: 9;
+    }
+
+    .main-next {
+      color:blanchedalmond;
+      position: absolute;
+      top: 50%;
+      right: 7%;
+      z-index: 9;
+    }
+
+
+    // main image slides
+    .slides {
+      width: 3000%;
+      height: 100%;
+      display: flex;
+    }
+
+    .main-image {
+      display: flex;
+      justify-content: center;
+      width: 80vh;
+      transition: 2s;
+      aspect-ratio: 8/ 5;
+      overflow: hidden;
+
+
+      img {
+        width: auto;
+        object-fit: cover;
+        height: 100%;
+        z-index: 8;
+        cursor:zoom-in;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.product-summary {
+  width: 30vh;
+  padding: 2vh;
+  position: relative;
+  .card-price{
+    font-size: medium;
+    display: flex;
+  }
+
+  .stroke-price{
+    font-size: medium;
+    display: inline-flex;
+    text-decoration: line-through red;
+  }
+  .sale-price{
+    font-size: medium;
+    display: inline-flex;
+    color: red
+  }
+  h5 {
+    margin-bottom: 1vh;
+  }
+  h1 {
+    margin-bottom: 1vh;
+  }
+  .share-buttons {
+  }
+}

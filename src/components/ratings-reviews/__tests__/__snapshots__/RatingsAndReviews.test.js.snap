@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingsAndReviews Component matches snapshot 1`] = `
+<div
+  className="ratings-reviews"
+  data-testid="ratings-reviews-comp"
+/>
+`;

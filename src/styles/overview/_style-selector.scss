@@ -1,0 +1,38 @@
+.style-selector{
+  display: inline-block;
+  width: 100%;
+  overflow:hidden;
+  margin-bottom: 1vh;
+  .style-thumbnails{
+    display: -webkit-box;
+    width:100%;
+    flex-wrap: wrap;
+    .style-thumbnail{
+      width: 25%;
+      .style-name {
+        font-size: 0.1vh;
+        width: 100%;
+      }
+      .style-check-box{
+        position: absolute;
+        background: white;
+        width: 1.5vh;
+        color: rgb(177, 150, 108);
+        display: none;
+      }
+      .style-thumbnail-container{
+        display: flex;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        overflow: hidden;
+        justify-content: center;
+        img{
+          width: 10vh;
+          height: auto;
+        }
+      }
+    }
+  }
+
+}

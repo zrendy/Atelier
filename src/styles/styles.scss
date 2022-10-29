@@ -1,0 +1,15 @@
+@import './related-items/related_items';
+@import './ratings-reviews/ratings_reviews';
+@import './overview/overview';
+@import './question-answer/question_answer';
+@import './shared/star_rating';
+@import './navbar';
+/*reset css from user agent stylesheet*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  /*use Roboto Google Fonts*/
+  font-family: 'Roboto', sans-serif;
+}

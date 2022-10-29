@@ -1,0 +1,292 @@
+.related-comparison{
+  display: block;
+  width: 110vh;
+  justify-content: center;
+  margin: auto;
+}
+
+//related list component holds related title and related carosuel
+.related-list{
+  height:fit-content;
+  display:block;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+  width: 110vh;
+  align-items: center;
+}
+
+//related list title 'Related Product'
+.related-title{
+  text-align: left;
+  // margin-left: 20px;
+}
+
+//left and right arrow
+.left-arrow{
+  display: inline-flex;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  left: 32px;
+}
+
+.right-arrow{
+  display: inline-flex;
+  right: 32px;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+}
+//arrow icons
+.fa-solid {
+  color: gray;
+  font-size: 300%;
+}
+
+.fa-solid:hover {
+  color: black;
+  font-size: 400%;
+}
+
+//flex container
+.related-carousel{
+  display: -webkit-box;
+  width: 110vh;
+  position: relative;
+  overflow-x: scroll;
+  overflow: hidden;
+  white-space: nowrap;
+  //hide scrollbar in IE, Edge and Firefox
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+//hide scrollbar in Chrome, safari and opera
+.related-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+//individual card
+.related-card{
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  height: 420px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+//star icon on top right of card
+.fa-regular{
+  &.fa-star{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+  &.fa-star:hover{
+    font-size: 150%;
+  }
+}
+
+.card-image{
+  display: inline-flex;
+  position:relative;
+  height: 300px;
+  width: 250px;
+  top: 0px;
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 2px 2px 0px 0px;
+}
+
+//card info section contains category, product name, product price and product review stars
+.card-info{
+  height:100px;
+  position: absolute;
+  bottom: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 20px;
+  align-items: flex-end;
+  z-index: -1;
+
+  .card-category{
+    display: flex;
+    font-size: medium;
+  }
+
+  .card-name{
+    display: flex;
+    font-size: larger;
+  }
+
+  .card-price{
+    font-size: medium;
+    display: flex;
+  }
+
+  .stroke-price{
+    font-size: medium;
+    display: inline-flex;
+    text-decoration: line-through red;
+  }
+  .sale-price{
+    font-size: medium;
+    display: inline-flex;
+    margin: 5px;
+    color: red
+  }
+  .card-stars{
+    display: flex;
+  }
+}
+
+.related-modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.related-modal-content{
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  position: relative;
+  z-index: 100000;
+  border: 1px solid gray;
+  border-radius: 2px;
+  align-items: center;
+
+  .related-modal-title{
+    display: flex;
+    position: relative;
+    margin: 10px;
+  }
+
+  .related-modal-content:after{
+    display: table;
+    clear: both;
+  }
+
+  .modal-column {
+    float: left;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+
+
+//===============================================================
+//Your outfit list CSS below
+.outfit-list{
+  height:fit-content;
+  display:block;
+  position: relative;
+  justify-content: center;
+}
+
+.outfit{
+  display: inline-flex;
+}
+
+.outfit-add{
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 420px;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-right: 20px;
+  color: gray;
+
+  .outfit-add-icon{
+    position: absolute;
+    top: 45%;
+    left: 52px;
+
+  }
+
+
+}
+
+.fa {
+  &.fa-plus{
+    font-size: 110%;
+    z-index: 10;
+  }
+}
+.outfit-add:hover{
+  color: black;
+}
+
+//left and right arrow
+.outfit-left-arrow{
+  display: inline-flex;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  left: 355px;
+}
+
+.outfit-right-arrow{
+  display: inline-flex;
+  right: 32px;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+}
+//flex container
+.outfit-carousel{
+  display: -webkit-box;
+  position: relative;
+  overflow-x: scroll;
+  overflow: hidden;
+  white-space: nowrap;
+  width:80vh;
+  margin: auto;
+  //hide scrollbar in IE, Edge and Firefox
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+//hide scrollbar in Chrome, safari and opera
+.outfit-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.outfit-card{
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  height: 420px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-right: 20px;
+
+  .fa{
+    &.fa-times-circle-o{
+      display: flex;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 10;
+    }
+    &.fa-times-circle-o:hover{
+      font-size: 150%;
+    }
+  }
+}
