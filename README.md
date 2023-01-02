@@ -27,9 +27,8 @@ SETUP:
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/oscardong0813, https://github.com/young-min-ko]
+[![Contributors][contributors-shield]][]
 
-<!-- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) -->
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -88,7 +87,7 @@ SETUP:
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `zrendy`, `Atelier`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Atelier Full Stack Application`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `zrendy`, `Atelier`, `twitter_handle`, `zrendy`, `gmail`, `zrendy`, `Atelier Full Stack Application`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +97,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 * [![React][React.js]][React-url]
-* [![Node][Node.js]][Node-url]
+* [![Express][Express.js]][Express-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -197,7 +196,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - zrendy@gmail.com
 
 Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atelier)
 
@@ -229,7 +228,7 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [license-shield]: https://img.shields.io/github/license/zrendy/Atelier.svg?style=for-the-badge
 [license-url]: https://github.com/zrendy/Atelier/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/zrendy
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
@@ -247,3 +246,5 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Express-url]: https://expressjs.com
