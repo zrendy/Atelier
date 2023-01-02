@@ -1,5 +1,5 @@
 export default function Price(props) {
-  //if (props.sale_price)
+
   if (props.sale_price===null) {
     return <small className='card-price' data-testid='card-price'>{'$ ' + props.original_price}</small>
   } else {

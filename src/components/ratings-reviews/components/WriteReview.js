@@ -63,7 +63,6 @@ export default function WriteReview ({rerender, breakdown, productName, modalOpe
     var obj = {}
     for(var characteristic of characteristics) {
       var id = breakdown.characteristics[characteristic]["id"];
-      console.log('THIS IS ID', characteristic, id)
       switch (characteristic) {
         case "Size":
           obj[id]=size;

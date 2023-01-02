@@ -4,14 +4,11 @@ import {useState, useEffect} from 'react';
 export default function RelatedList (props) {
   const [showLeftArrow, setLeftArrow] = useState(false);
   const [showRightArrow, setRightArrow] = useState(true);
-  //console.log('TESTING PROPS IN RELATED LIST ', props)
-  //slide value in px
   const slideWindow = 280;
 
   const prevHandler = () => {
     let prevSlide = document.getElementById('slider');
     prevSlide.scrollLeft -= slideWindow;
-    console.log(prevSlide.scrollLeft)
     if (prevSlide.scrollLeft === 0) {
       setLeftArrow(false);
     }
@@ -21,8 +18,6 @@ export default function RelatedList (props) {
   const nextHandler = () => {
     let nextSlide = document.getElementById('slider');
     nextSlide.scrollLeft += slideWindow;
-    console.log(nextSlide.scrollLeft);
-    console.log(nextSlide.scrollWidth, nextSlide.clientWidth)
     setLeftArrow(true);
     if (nextSlide.scrollLeft >= (nextSlide.scrollWidth - nextSlide.clientWidth)) {
       setRightArrow(false);
@@ -34,6 +29,7 @@ export default function RelatedList (props) {
     setRightArrow(true);
   },[props]);
 
+  console.log('RELATED PRODUCTS LIST', props.currentData)
   if (props.currentData.relatedProducts.length === 0) {
     return (
       <div className='related-list' data-testid='related-list'>
@@ -53,7 +49,7 @@ export default function RelatedList (props) {
         <i className="fa-solid fa-chevron-right" onClick={nextHandler} data-testid='right-arrow'></i>
       </i> : null}
       <div className='related-carousel' id='slider'>
-        {//relatedProduct is product_id
+        {
           props.currentData.relatedProducts.map((relatedProduct, index) => {
             return <RelatedCard
             currentData={props.currentData}

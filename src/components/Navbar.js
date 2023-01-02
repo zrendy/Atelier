@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import logo from '../images/logo.png';
 
 export default function Navbar ({setCurrentProduct}) {
   const [term, setTerm] = useState('');
@@ -14,14 +15,18 @@ export default function Navbar ({setCurrentProduct}) {
   <div >
   <header className="header">
     <nav className='navbar' data-testid="navbar">
-      <span className="logo">LOGO</span>
-      <span className="search-bar">
-        <input placeholder="search product id" type="text" value={term} onChange={searchBarOnChange}></input>
+      <img className="logo" src={logo}/>
+      <form class="form-wrapper">
+        <input type="text" id="search" placeholder="Search by ID..." value={term} onChange={searchBarOnChange} required/>
+        <input onClick={searchButtonOnClick} type="submit" value="go" id="submit"/>
+      </form>
+      {/* <span className="search-bar">
+        <input placeholder="Search ID" type="text" value={term} onChange={searchBarOnChange}></input>
         <button onClick={searchButtonOnClick}>search</button>
-        </span>
+      </span> */}
     </nav>
   </header>
-  <h4 className="banner">BANNER!! <a href="/">SALE SALE SALE!</a></h4>
+  <h4 className="banner"><a href="/">FLASH SALE!</a></h4>
   </div>
   )
 }

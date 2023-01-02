@@ -60,7 +60,6 @@ const related = (req, res) => {
           result.slogan = data[1].data.slogan;
           result.description = data[1].data.description;
           let default_style = data[2].data.results;
-          console.log('PRINT HERE API REQUEST REMAINING',data[2].headers['x-ratelimit-remaining']);
           for (let i = 0; i < default_style.length; i++) {
             if (default_style[i]['default?'] === true) {
               default_style.unshift(default_style.splice(i, 1)[0]);

@@ -204,7 +204,7 @@ function ImageGallery({data}) {
 
   return (
     <section className={expanded ? "expanded-image-gallery": "image-gallery"} data-testid="image-gallery">
-      <button onClick={expandOnClick} className={expanded ? "expanded-expand-button": "expand-button"}>expand</button>
+      <button onClick={expandOnClick} className={expanded ? "expanded-expand-button": "expand-button"}>+</button>
       <div className={expanded ? "expanded-slider": "slider"}>
         <a data-testid="thumbnail-previous" className={expanded ? "expanded-thumbnail-previous": "thumbnail-previous"} onClick={(e) => { moveThumbnail(-1);
         setLog(oldLog => [...oldLog].concat('clicked thumbnail-next moving thumbnail')); }}>&#8963;</a>

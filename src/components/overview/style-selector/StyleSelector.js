@@ -7,7 +7,7 @@ const StyleSelector = ({data, setData}) =>{
 
   return (
     <div className="style-selector">
-      <h4>STYLE><span>SELECTED STYLE</span></h4>
+      <h4><span>Select Style</span></h4>
       <div className="style-thumbnails">
       {typeof data[1][data[2]] === 'object' ? data[1].map((ele, i) => {
             // console.log(ele);

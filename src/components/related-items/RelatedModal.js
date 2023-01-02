@@ -1,9 +1,5 @@
 import {useEffect} from 'react';
 
-//In props
-//showModal(a state), props.onClose
-//current product name and features
-//related product name and features
 export default function RelatedModal (props) {
   let comparison = {};
   let x_mark = 'x';
@@ -18,18 +14,9 @@ export default function RelatedModal (props) {
       comparison[relatedFeature.feature][1] = relatedFeature.value;
     }
   })
-  // props.relatedProduct.features.forEach((feature) => {
-  //   if (comparison.hasOwnProperty(feature.feature)) {
-  //     comparison[feature.feature].push(feature.value);
-  //   } else {
-  //     comparison[feature.feature] = [null, feature.value];
-  //   }
-  // })
-
   if (!props.showModal) {
     return null;
   }
-
   return (
     <div className='related-modal' onClick={props.onClose} data-testid='related-modal'>
       <div className='related-model-overlay'></div>
@@ -67,43 +54,4 @@ export default function RelatedModal (props) {
       </div>
     </div>
   )
-
 }
-
-
-/*
-"features": [
-      {
-          "feature": "Sole",
-          "value": "Rubber"
-      },
-      {
-          "feature": "Material",
-          "value": "FullControlSkin"
-      },
-      {
-          "feature": "Stitching",
-          "value": "Double Stitch"
-      }
-  ]
-
-"features": [
-      {
-          "feature": "Sole",
-          "value": "Rubber"
-      },
-      {
-          "feature": "Material",
-          "value": "FullControlSkin"
-      },
-      {
-          "feature": "Mid-Sole",
-          "value": "ControlSupport Arch Bridge"
-      },
-      {
-          "feature": "Stitching",
-          "value": "Double Stitch"
-      }
-  ]
-
-*/

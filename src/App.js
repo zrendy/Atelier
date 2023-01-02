@@ -14,13 +14,10 @@ function App() {
 
   useEffect(() => {
     if (viewedProduct.hasOwnProperty(currentProduct)) {
-      console.log('BEFORE ', viewedProduct, currentData);
       setCurrentData(viewedProduct[currentProduct]);
-      console.log('APP JS NO AXIOS USED', currentProduct, currentData);
     } else {
       let options = {
         url: `/api/related/${currentProduct}`,
-        //url: `/api/related/${currentProduct}`,
         method: 'get',
       };
       axios.get(options.url)
@@ -34,11 +31,7 @@ function App() {
     }
   }, [currentProduct, currentData]);
 
-  console.log('INSIDE APP JS', viewedProduct);
-
-
   const [log, setLog] = useState([]);
-  console.log('user log', log);
   return (
     <WebsiteContext.Provider value={{log, setLog}}>
     <div className="App" data-testid="App">
@@ -49,7 +42,7 @@ function App() {
       viewedProduct={viewedProduct}
       setViewedProduct={setViewedProduct}/>}
       {currentProduct && currentData && <RatingsAndReviews productName={currentData.name} product_id={currentProduct} />}
-      { currentProduct && <QuestionsAndAnswers product_id={currentProduct} />}
+      {/* { currentProduct && <QuestionsAndAnswers product_id={currentProduct} />} */}
     </div>
     </WebsiteContext.Provider>
   );

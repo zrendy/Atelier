@@ -1,7 +1,6 @@
-// import {useState, useEffect} from 'react';
 import RelatedList from './RelatedList.js';
 import YourOutfit from './YourOutfit.js';
-// import axios from 'axios';
+
 
 export default function RelatedAndComparison (props) {
   return (

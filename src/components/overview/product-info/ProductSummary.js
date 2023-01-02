@@ -20,7 +20,7 @@ export default function ProductSummary ({data, setData}) {
     <StyleSelector data={data} setData={setData}/>
     <ShoppingCart data={data}/>
     <div className="share-buttons">
-      <h4>share on social media!</h4>
+      <h4>Share On Social Media!</h4>
       <a className="facebook" href="https://www.facebook.com/sharer.php" onClick={counterOnClick}>
         <i className="fab fa-facebook"></i>
       </a>

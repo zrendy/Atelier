@@ -2,15 +2,11 @@ import OutfitCard from './OutfitCard.js';
 import { useEffect, useState } from 'react';
 import React from 'react';
 
-//props should contain current product infos
-//category, name, price(sale or not), star reviews
 export default function YourOutfit(props) {
-  // console.log(props);
   const [outfitList, setOutfitList] = useState([]);
   const [showLeftArrow, setLeftArrow] = useState(false);
   const [showRightArrow, setRightArrow] = useState(false);
 
-  //slide value in px
   const slideWindow = 280;
 
   const prevHandler = () => {
@@ -34,12 +30,10 @@ export default function YourOutfit(props) {
   const handleAddOutfit = () => {
     if (!outfitList.includes(props.currentProduct)){
       setOutfitList(existing => [...existing, props.currentProduct])
-      // console.log(outfitList);
     }
   }
 
   useEffect(() => {
-    // console.log('rendered', outfitList);
     if (outfitList.length > 0) {
       setRightArrow(true)
     }
@@ -48,7 +42,6 @@ export default function YourOutfit(props) {
   return (
     <div className='outfit-list' data-testid='outfit-list'>
       <h1 className='related-title'>Your Outfit</h1>
-
       <div className='outfit'>
       {showLeftArrow ? <i className='outfit-left-arrow' onClick={prevHandler}>
         <i className="fa-solid fa-chevron-left" data-testid='left-arrow'></i>
@@ -71,9 +64,6 @@ export default function YourOutfit(props) {
         }
       </div>
       </div>
-
-
-
     </div>
   )
 }

@@ -1,7 +1,4 @@
-// require("dotenv").config();
 const express = require('express')
-// const { join } = require('path');
-// router instance = middleware
 const router = express.Router()
 const axios = require('axios');
 const app = express();
@@ -18,7 +15,6 @@ const getProductId = (req, res) => {
   }
    axios(options)
   .then((result)=>{
-    console.log(result, 'from api call server ')
     res.send(result.data)
   })
   .catch((error)=>{
@@ -39,19 +35,12 @@ const postQuestion = (req, res) => {
   }
    axios(options)
   .then((result)=>{
-    console.log(result, 'from api call server ')
     res.send(result.data)
   })
   .catch((error)=>{
    res.sendStatus(501, 'error making request ')
   })
 }
-
-
-
-
-
-
     module.exports = {
       router: getProductId
     };

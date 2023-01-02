@@ -2,7 +2,6 @@ const axios = require('axios');
 
 module.exports.reviews = (req, res) => {
   var end = req.params.endpoint;
-  console.log('END POINT', end)
   switch (req.method) {
     case "GET":
       //to render Reviews-List component
@@ -41,7 +40,6 @@ module.exports.reviews = (req, res) => {
       break;
     case "POST":
       if(end === "post") {
-        console.log('INSIDE POST WRITING REVIEW', JSON.stringify(req.body))
         var options = {
           url: 'https://app-hrsei-api.herokuapp.com/api/fec2/hr-rfe/reviews',
           data: req.body,
