@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -12,7 +13,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/zrendy/Atelier">View Demo</a>
+    <a href="#demo">View Demo</a>
     ·
     <a href="https://github.com/zrendy/Atelier/issues">Report Bug</a>
     ·
@@ -114,8 +115,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
+<a name="demo"></a>
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
