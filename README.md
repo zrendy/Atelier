@@ -67,10 +67,12 @@
 
 ### Built With
 
-
+* [![Node][Node.js]][Node-url]
 * [![React][React.js]][React-url]
+* [![SASS][SASS-img]][SASS-url]
 * [![Express][Express.js]][Express-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![JEST][JEST-img]][JEST-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,3 +210,9 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
 [Express-url]: https://expressjs.com
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en/
+[SASS-img]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[SASS-url]: https://sass-lang.com/
+[JEST-img]: https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white
+[JEST-url]: https://jestjs.io/
