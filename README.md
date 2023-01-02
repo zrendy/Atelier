@@ -127,13 +127,13 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 <!-- ROADMAP -->
 ## Roadmap
 
-**Reviews**
+**Reviews Features**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
   *Format of API data*
   [![reviewsdata][reviews-data]]
   [![breakdowndata][breakdown-data]]
-- [ ] Feature 2
+- [ ] Sorting based on number of stars and sorting based on criteria (Relevancy, Newest, Most Helpful)
 - [ ] Feature 3
     - [ ] Nested Feature
 
