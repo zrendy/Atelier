@@ -203,7 +203,7 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [license-url]: https://github.com/zrendy/Atelier/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zrendy
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/website1.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
