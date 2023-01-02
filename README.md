@@ -130,7 +130,9 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 **Reviews**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
+  *Format of API data*
   [![reviewsdata][reviews-data]]
+  [![breakdowndata][breakdown-data]]
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
@@ -180,6 +182,7 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [product-screenshot2]: src/images/website2.png
 [product-screenshot3]: src/images/website3.png
 [reviews-data]: src/images/reviews-apiData.png
+[breakdown-data]: src/images/reviews-breakdownData.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
