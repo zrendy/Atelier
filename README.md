@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zrendy/Atelier">
-    <img src="src/images/logo.png" alt="Logo" width="120" height="160">
+    <img src="src/images/logo.png" alt="Logo" width="160" height="150">
   </a>
 
 <h3 align="center">Atelier Products Full Stack Application</h3>
