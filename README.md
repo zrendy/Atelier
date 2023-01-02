@@ -1,39 +1,8 @@
-**ATELIER FULL STACK APPLICATION**
-
-This is a fleshed-out fullstack product information website application built based off an express server backend and a Reactjs frontend. Styles were written in sass and compiled. The express server directs incoming react client requests and appends a secure github token to make a request to an external API where product information resides. 
-
-Testing results are included. 
-
-SETUP:
-
-
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/zrendy/Atelier">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Atelier Products Full Stack Application</h3>
@@ -41,7 +10,6 @@ SETUP:
   <p align="center">
     This is a fleshed-out fullstack product information website application built based off an express server backend and a Reactjs frontend. Styles were written in sass and compiled. The express server directs incoming react client requests and appends a secure github token to make a request to an external API where product information resides.
     <br />
-    <a href="https://github.com/zrendy/Atelier"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/zrendy/Atelier">View Demo</a>
@@ -114,17 +82,13 @@ To get a local copy up and running, follow these simple steps.
 4. Start your server - npm run server 
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* node
+[nvm](https://github.com/nvm-sh/nvm)
 
 ### Installation
 
 1. Get a Personal Access Token at [Github](https://github.com/settings/tokens)
-    i. ensure both "read:org" and "user" access rights are selected.
+    *ensure both "read:org" and "user" access rights are selected.
    
 2. Clone or fork the repo
    ```sh
