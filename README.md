@@ -52,13 +52,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-*Home Page*
+**Home Page**
 [![Home Page][product-screenshot1]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698205/Screenshot_2023-01-02_at_5.21.01_PM_zrqd1s.png)
 
-*Related Products*
+**Related Products**
 [![Related][product-screenshot2]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698204/Screenshot_2023-01-02_at_5.22.18_PM_veiaiw.png)
 
-*Reviews*
+**Reviews**
 [![Reviews][product-screenshot3]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698203/Screenshot_2023-01-02_at_5.22.30_PM_jiiblm.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,12 +78,6 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy up and running, follow these simple steps.
-1. Clone the repository
-2. Install Dependencies - npm install 
-2. Build the application - npm run build (a prebuilt "build" is included, this step could be **omitted**) 
-3. Add your environment variables, a defined PORT and a GITHUB API Token to authenticate API requests. Add a 'PORT' environment variable to a port you would like your application to listen on, add a 'AUTH' environment variable set to a GITHUB token. 
-4. Start your server - npm run server 
 
 ### Prerequisites
 * node
