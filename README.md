@@ -142,7 +142,7 @@ See the [open issues](https://github.com/zrendy/Atelier/issues) for a full list 
 <!-- CONTACT -->
 ## Contact
 
-Rendy - [Github](https://github.com/zrendy) <a href="https://github.com/zrendy/Atelier">Email</a>
+Rendy - [Github](https://github.com/zrendy) <a href="zrendy@gmail.com">Email</a>
 
 Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atelier)
 
