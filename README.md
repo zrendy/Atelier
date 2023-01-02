@@ -130,7 +130,7 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 **Reviews**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
-  ![reviewsdata][reviews-data]]
+  [![reviewsdata][reviews-data]]
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
