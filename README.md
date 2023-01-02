@@ -131,8 +131,8 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
   *Format of API data*
-  [![reviewsdata][reviews-data]]
-  [![breakdowndata][breakdown-data]]
+  ![reviewsdata][reviews-data]
+  ![breakdowndata][breakdown-data]
 - [ ] Sorting based on number of stars and sorting based on criteria (Relevancy, Newest, Most Helpful)
 
 
