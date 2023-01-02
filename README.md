@@ -140,6 +140,8 @@ https://user-images.githubusercontent.com/104995933/210285171-0413574c-d9d1-42c8
 
 - [ ] Feature 3
     - [ ] Nested Feature
+- [ ] Modals, open and close full-size images rendered within reviews.
+- [ ] 
 
 See the [open issues](https://github.com/zrendy/Atelier/issues) for a full list of proposed features (and known issues).
 
