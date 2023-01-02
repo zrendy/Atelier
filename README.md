@@ -124,9 +124,8 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Get a Personal Access Token at [Github](https://github.com/settings/tokens)
-   ```
-   ensure both "read:org" and "user" access rights are selected.
-   ```
+   -ensure both "read:org" and "user" access rights are selected.
+   
 2. Clone or fork the repo
    ```sh
    git clone https://github.com/zrendy/Atelier.git
@@ -135,16 +134,19 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Build the application `config.js` (a prebuilt "build" is included, this step could be **omitted**)
+4. Build the application, a prebuilt "build" is included, this step could be **omitted**.
    ```sh
    npm build
    ```
-5. Create a `.env` file within the project directory, add `PORT` and `AUTH` environment variables.
+5. Create a `.env` file within the project directory, add `PORT` and `AUTH` environment variables
    ```
    PORT=3000
-   AUTH=*YOUR GITHUB TOKEN HERE*
+   AUTH=[YOUR GITHUB TOKEN HERE]
    ```
-
+4. Start the server
+   ```sh
+   npm server
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
