@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zrendy/Atelier">
-    <img src="src/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/images/logo.png" alt="Logo" width="120" height="160">
   </a>
 
 <h3 align="center">Atelier Products Full Stack Application</h3>
@@ -52,10 +52,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+*Home Page*
+[![Home Page][product-screenshot1]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698205/Screenshot_2023-01-02_at_5.21.01_PM_zrqd1s.png)
 
-[![Product Name Screen Shot][product-screenshot]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698205/Screenshot_2023-01-02_at_5.21.01_PM_zrqd1s.png)
+*Related Products*
+[![Related][product-screenshot2]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698204/Screenshot_2023-01-02_at_5.22.18_PM_veiaiw.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `zrendy`, `Atelier`, `twitter_handle`, `zrendy`, `gmail`, `zrendy`, `Atelier Full Stack Application`, `project_description`
+*Reviews*
+[![Reviews][product-screenshot3]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698203/Screenshot_2023-01-02_at_5.22.30_PM_jiiblm.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +207,9 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [license-url]: https://github.com/zrendy/Atelier/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/zrendy
-[product-screenshot]: src/images/website1.png
+[product-screenshot1]: src/images/website1.png
+[product-screenshot2]: src/images/website2.png
+[product-screenshot3]: src/images/website3.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
