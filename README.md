@@ -52,13 +52,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-**Home Page**
+**Home Page**\
 [![Home Page][product-screenshot1]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698205/Screenshot_2023-01-02_at_5.21.01_PM_zrqd1s.png)
 
-**Related Products**
+**Related Products**\
 [![Related][product-screenshot2]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698204/Screenshot_2023-01-02_at_5.22.18_PM_veiaiw.png)
 
-**Reviews**
+**Reviews**\
 [![Reviews][product-screenshot3]](https://res.cloudinary.com/dvijvlkad/image/upload/v1672698203/Screenshot_2023-01-02_at_5.22.30_PM_jiiblm.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
