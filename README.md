@@ -143,7 +143,8 @@ https://user-images.githubusercontent.com/104995933/210285171-0413574c-d9d1-42c8
 
 https://user-images.githubusercontent.com/104995933/210285411-70944afd-98cb-40d0-bdd0-028c0c0fa48a.mov
 
-
+- [ ] Write reviews, will persist reviews with the API.
+- [ ] Uses the cloudinary API to upload images and persist with API. 
 
 See the [open issues](https://github.com/zrendy/Atelier/issues) for a full list of proposed features (and known issues).
 
