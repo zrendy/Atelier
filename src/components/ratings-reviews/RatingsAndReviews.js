@@ -29,6 +29,7 @@ export default function RatingsAndReviews ({productName, product_id}) {
     axios(options1)
     .then(result => {
       setReviewsParent(result.data.results);
+      console.log('Reviews Data', result.data.results)
     })
     .catch(err => {
       console.log(err);
@@ -43,6 +44,7 @@ export default function RatingsAndReviews ({productName, product_id}) {
     axios(options2)
     .then(result => {
       setBreakdown(result.data)
+      console.log('Breakdown', result.data)
     })
     .catch(err => {
       console.log(err);

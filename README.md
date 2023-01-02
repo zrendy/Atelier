@@ -101,7 +101,7 @@
    ```
 4. Build the application, a prebuilt "build" is included, this step could be **omitted**.
    ```sh
-   npm build
+   npm run build
    ```
 5. Create a `.env` file within the project directory, add `PORT` and `AUTH` environment variables
    ```
@@ -110,7 +110,7 @@
    ```
 4. Start the server
    ```sh
-   npm server
+   npm run server
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +127,10 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
+**Reviews**
+
+- [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
+  ![reviewsdata][reviews-data]]
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
@@ -176,6 +179,7 @@ Project Link: [https://github.com/zrendy/Atelier](https://github.com/zrendy/Atel
 [product-screenshot1]: src/images/website1.png
 [product-screenshot2]: src/images/website2.png
 [product-screenshot3]: src/images/website3.png
+[reviews-data]: src/images/reviews-apiData.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
