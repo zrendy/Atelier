@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 
 <!-- ROADMAP -->
 ## Roadmap
-As the chief engineer for the reviews section, I was responsible for the design and implementation of the front and backend of this product. 
+As the chief engineer for the reviews section, I was responsible for the design and implementation of the frontend and backend for the reviews section of this product. 
 **Reviews Features**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
