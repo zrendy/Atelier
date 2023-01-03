@@ -130,7 +130,7 @@ As the chief engineer for the reviews section, I was responsible for the design 
 **Reviews Features**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
-  *Format of API data*
+  *Shown below is the format of returned API data*
   ![reviewsdata][reviews-data]
   ![breakdowndata][breakdown-data]
 - [ ] Sorting based on number of stars and sorting based on criteria (Relevancy, Newest, Most Helpful)
