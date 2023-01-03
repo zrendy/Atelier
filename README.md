@@ -9,7 +9,7 @@
 <h3 align="center">Atelier Products Full Stack Application</h3>
 
   <p align="center">
-    This is a fleshed-out fullstack product information website application built based off an express server backend and a Reactjs frontend. Styles were written in sass and compiled. The express server directs incoming react client requests and appends a secure github token to make a request to an external API where product information resides.
+    This is a fleshed-out fullstack product information website application built based off an Express.js server backend and a Reactjs frontend. Styles were written in SASS and compiled down to CSS. The server directs incoming React.js client requests and appends a secure Github token to pipe a request to an external API where the product information resides. 
     <br />
     <br />
     <br />
@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/104995933/210283684-7586a448-1f52-473f
 
 <!-- ROADMAP -->
 ## Roadmap
-
+As the chief engineer for the reviews section, I was responsible for the design and implementation of the front and backend of this product. 
 **Reviews Features**
 
 - [ ] Render reviews based off API data. For each product, a breakdown and a subset of reviews is rendered. 
